@@ -1,0 +1,50 @@
+/* ESTILO.CSA */
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: helvetica, arial;
+    font-size: 16px;
+    color: #333;
+
+}
+
+header{
+    height: 90px;
+    background-color: #262626;
+    padding: 10px 0;
+}
+
+footer{
+    height: 80px;
+    background-color: #2F4F4F;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #f4f4f4;
+}
+
+/* class */
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#conteudo{
+    padding: 50px 0;
+}
+
+#menu{
+    float: right;
+    padding: 35px 0;
+}
+
+#menu a{
+    text-decoration: none;
+    padding: 40px 40px;
+    color: #e3e3e3;
+    text-shadow: 1px 1px 1px #111;
+}
+
+#menu a:hover{
+    background-color: #2F4F4F;
+}
