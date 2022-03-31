@@ -2,7 +2,7 @@
 
 $servidor = "localhost";
 $usuario = "root";
-$senha = "mmdesouza";
+$senha = "";
 $db = "nescola_curso";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
